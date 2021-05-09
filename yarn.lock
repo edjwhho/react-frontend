@@ -2220,6 +2220,18 @@
     "loader-utils" "^2.0.0"
     "regex-parser" "^2.2.11"
 
+"ag-grid-community@^25.2.1", "ag-grid-community@~25.2.0":
+  "integrity" "sha512-flITh0x6LRxU8VECJ1Xisbx3zGp7P5Rz4RwKgkkRk3k2C+6qv2doFgeeiQoR5Ffu9qXnSPaVcXIHGY1xVn/R7Q=="
+  "resolved" "https://registry.npmjs.org/ag-grid-community/-/ag-grid-community-25.2.1.tgz"
+  "version" "25.2.1"
+
+"ag-grid-react@^25.2.0":
+  "integrity" "sha512-ykb43Tbs6cvD+Y2jlVTO7TSvWo9cB22Fg4xZsUZgx84xGWZ4qYcXbdAAV/iGzv1N4geJe65sRMYl3kbqJ61KIA=="
+  "resolved" "https://registry.npmjs.org/ag-grid-react/-/ag-grid-react-25.2.0.tgz"
+  "version" "25.2.0"
+  dependencies:
+    "prop-types" "^15.6.2"
+
 "aggregate-error@^3.0.0":
   "integrity" "sha512-4I7Td01quW/RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd+nd72zqRySlr9BmDA8xlEJ6vJMrYA=="
   "resolved" "https://registry.npmjs.org/aggregate-error/-/aggregate-error-3.1.0.tgz"
@@ -8996,7 +9008,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.7.2":
+"prop-types@^15.6.2", "prop-types@^15.7.2":
   "integrity" "sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -9202,7 +9214,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^17.0.2":
+"react-dom@*", "react-dom@^16.3.0 || ^17.0.0", "react-dom@^17.0.2":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -9302,7 +9314,7 @@
   "resolved" "https://registry.npmjs.org/react-table/-/react-table-7.7.0.tgz"
   "version" "7.7.0"
 
-"react@*", "react@^16.8.3 || ^17.0.0-0", "react@^17.0.2", "react@>= 16", "react@17.0.2":
+"react@*", "react@^16.3.0 || ^17.0.0", "react@^16.8.3 || ^17.0.0-0", "react@^17.0.2", "react@>= 16", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"

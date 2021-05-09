@@ -1,5 +1,6 @@
 import Child from './Child.jsx';
 import Tables from './Table';
+import Aggrid from './Aggrid.jsx';
 import React from 'react';
 
 function Parent() {
@@ -17,16 +18,19 @@ function Parent() {
             transform: 'translate(-50%, -50%)'
         }}
         >
-        <div className="wrapper">
-          <h1>Helloe there, {value}!</h1>
+          <div className="wrapper">
+            <h1>Helloe there, {value}!</h1>
           <hr />
-          <Child value={value} onChange={handleChange} />
-        </div>
+            <Child value={value} onChange={handleChange} />
+          </div>
         <hr />
-        <div className="table">
-          <Tables />
-        </div>
+          <div className="table">
+            <Tables />
+          </div>
         <hr />
+          <div className="aggrid">
+            <Aggrid />
+          </div>
       </div>
       )
     }
