@@ -5,23 +5,20 @@ import React from 'react';
 
 function Parent() {
     const [value, setValue] = React.useState("eddie");
-
     function handleChange(newValue) {
       console.log("parent rendering...")
       setValue(newValue);
     }
-
     // We pass a callback to Child
     return  (
       <div className="parent" style={{
-            position: 'absolute', left: '50%', top: '50%',
+            position: 'absolute', left: '50%', top: '60%',
             transform: 'translate(-50%, -50%)'
-        }}
-        >
+        }}>
           <div className="wrapper">
-            <h1>Helloe there, {value}!</h1>
+          <h1>Helloe there, {value}!</h1>
           <hr />
-            <Child value={value} onChange={handleChange} />
+            <Child value={value} onChange={handleChange} onClick={handleChange}/>
           </div>
         <hr />
           <div className="table">
