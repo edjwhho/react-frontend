@@ -16,9 +16,9 @@ function Parent() {
             transform: 'translate(-50%, -50%)'
         }}>
           <div className="wrapper">
-          <h1>Helloe there, {value}!</h1>
+          <h1>Hello there, {value}!</h1>
           <hr />
-            <Child value={value} onChange={handleChange} onClick={handleChange}/>
+            <Child value={value} onChange={handleChange} />
           </div>
         <hr />
           <div className="table">
