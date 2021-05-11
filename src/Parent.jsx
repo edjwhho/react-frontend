@@ -1,6 +1,7 @@
 import Child from './Child.jsx';
 import Tables from './Table';
 import Aggrid from './Aggrid.jsx';
+import Form from './Form.jsx';
 import React from 'react';
 
 function Parent() {
@@ -27,6 +28,10 @@ function Parent() {
         <hr />
           <div className="aggrid">
             <Aggrid />
+          </div>
+        <hr />
+          <div className="form">
+            <Form />
           </div>
       </div>
       )
