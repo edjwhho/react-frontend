@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Parent from './Parent.jsx';
+import Parent from './componets/Parent.jsx';
 
 ReactDOM.render(
   <React.StrictMode>
