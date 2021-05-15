@@ -3,6 +3,7 @@ import Tables from './Table';
 import Aggrid from './Aggrid.jsx';
 import Form from './Form.jsx';
 import React from 'react';
+import './styles.css';
 
 function Parent() {
     const [value, setValue] = React.useState("eddie");

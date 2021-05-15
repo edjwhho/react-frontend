@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./styles.css";
 import axios from 'axios';
+import './table.css';
 
 function Tables() {
   const [books, setBooks] = useState(null);
