@@ -9,7 +9,9 @@
     "ag-grid-community": "^25.2.1",
     "ag-grid-react": "^25.2.0",
     "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "react-table": "^7.7.0",
@@ -42,6 +44,4 @@
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.2.0"
   }
-  
 }
-

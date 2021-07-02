@@ -3,7 +3,7 @@ import Tables from '../Table/Table';
 import Aggrid from '../Aggrid/Aggrid.jsx';
 import Form from '../Form/Form.jsx';
 import React from 'react';
-import './styles.css';
+import './Parent.css';
 
 function Parent() {
     const [value, setValue] = React.useState("eddie");
@@ -13,11 +13,7 @@ function Parent() {
     }
     // We pass a callback to Child
     return  (
-      <div className="parent" style={{
-            position: 'absolute', left: '50%', top: '60%',
-            transform: 'translate(-50%, -50%)'
-        }}>
-      
+      <div className="parent">
         <div className="wrapper">
           <h1>Hello there, {value}!</h1>
         <hr />

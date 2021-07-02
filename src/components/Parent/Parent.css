@@ -1,12 +1,23 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+  /* padding: auto; */
+}
+
+  .parent {
+    position: relative;
+    background-color: #6b9afa;
+    color: rgb(243, 246, 247);
+    top: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
   }
 
-  body {
-    background-color: #2b2c2e;
-    color: white;
-    padding: 40px;
-    font-family: Arial;
+  .wrapper {
+    background-color: #fa6bcf;
+    color: rgb(243, 246, 247);
+    padding: 5px;
+    font-family: sans-serif;
     text-align: center;
   }
   
@@ -18,16 +29,25 @@
   .Tables > h1 {
     position: relative;
     left: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
   }
   
   .Tables > h2 {
-    margin-top: 5px;
+    margin-top: 10px;
     position: relative;
     left: 10px;
     opacity: 0.7;
     font-size: 1.2rem;
     margin-bottom: 30px;
+  }
+
+  .Tables > h3 {
+    margin-top: 1px;
+    position: relative;
+    left: 0px;
+    opacity: 0.7;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
   }
   
   .fetch-button {
@@ -49,13 +69,7 @@
     background-color: rgb(195, 223, 223);
   }
   
-  .books {
-    position: relative;
-    left: 10px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+   
   .book {
     position: relative;
     left: 10px;

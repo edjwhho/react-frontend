@@ -3,6 +3,9 @@ import {AgGridColumn, AgGridReact} from 'ag-grid-react';
 import axios from 'axios';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-alpine.css';
+import button from 'react-bootstrap/Button';
+import './Aggrid.css'
+
 
 function Aggrid() {
     const [rowData, setRowData] = useState(null);
@@ -19,8 +22,8 @@ function Aggrid() {
 
     return (
     <div className="Agrrid">
-        <h1>Game of Thrones Books</h1>
-        <h2>Fetch a list from an API and display it</h2>
+        <h3>Game of Thrones Books</h3>
+        <h3>Fetch a list from an API and display it</h3>
         <div>
             <button className="button" onClick={fetchData}>
                 Getdata

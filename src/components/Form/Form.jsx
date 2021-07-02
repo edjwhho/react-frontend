@@ -1,4 +1,5 @@
 import React, { useReducer , useState } from 'react';
+import button from 'react-bootstrap/Button';
 import './form.css';
 
 const formReducer = (state, event) => {
@@ -60,18 +61,22 @@ function Form() {
            </fieldset>
            <fieldset disabled={submitting}>
                 <label>
-                <p>Apples</p>
-                <select name="apple" onChange={handleChange} value={formData.apple || ''}> 
+                <p className='papple'>Apples</p>
+                <select className='box1' name="apple" onChange={handleChange} value={formData.apple || ''}> 
                     <option value="">--Please choose an option--</option>
                     <option value="fuji">Fuji</option>
                     <option value="jonathan">Jonathan</option>
                     <option value="honey-crisp">Honey Crisp</option>
                 </select>
                 </label>
+
                 <label>
-                    <p>Count</p>
-                    <input type="number" name="count" onChange={handleChange} step="1" value={formData.count || ''}/>
+                  <div className='box2'>
+                      <p>Count</p>
+                      <input type="number" name="count" onChange={handleChange} step="1" value={formData.count || ''}/>
+                  </div>
                 </label>
+
                 <label>
                     <p>Gift Wrap</p>
                     <input 

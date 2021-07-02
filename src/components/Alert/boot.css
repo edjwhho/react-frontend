@@ -1,0 +1,15 @@
+.cont{
+    padding: 1px 1px;
+    position: relative; 
+}
+
+.bootcont{
+    position: relative; 
+    padding: 5px 5px;
+    top: 20px;
+}
+
+.buttonboot{
+    position:relative;
+    padding: 5px 5px;
+}

@@ -1,7 +1,31 @@
+.cont{
+    position: relative;
+    left: 0px;
+}
+
 .form {
-    padding: 5px 5px;
+    padding: 1px 1px;
+    position: relative;
+    left: 0px;
 }
 
 .form fieldset {
-    margin: 10px 0;
+    margin: 0px 0;
+}
+
+.papple{
+    padding: 0px 0px;
+    position: relative;
+    left: 0px;
+}
+.box1 {
+    padding: 3px 3px;
+    position: relative;
+    left: 0px;
+}
+
+.box2 {
+    padding: 3px 3px;
+    position: relative;
+    left: 0px;
 }
