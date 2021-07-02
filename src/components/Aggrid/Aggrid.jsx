@@ -12,6 +12,7 @@ function Aggrid() {
     
     const fetchData = async () => {
         const response = await axios.get(apiURL)
+        console.log (response)
         setRowData(response.data) 
         // console.log(JSON.stringify(response))
       }
