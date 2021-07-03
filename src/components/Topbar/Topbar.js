@@ -1,5 +1,4 @@
-import Alert from 'react-bootstrap/Alert';
-import React, { useReducer , useState } from 'react';
+import React, { useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -14,12 +13,11 @@ import Tables from '../Table/Table';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function Topbar(props) {
-    const [show, setShow] = useState(true);
+    // const [show, setShow] = useState(true);
     const [value, setValue] = useState("eddie");
 
     function handleChange(newValue) {

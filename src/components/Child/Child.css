@@ -1,4 +1,7 @@
-.parent{}
+.parent{
+    position: absolute;
+    left: 0px;
+}
 
 
 .child{

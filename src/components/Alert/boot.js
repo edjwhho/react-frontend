@@ -1,5 +1,5 @@
 import Alert from 'react-bootstrap/Alert';
-import React, { useReducer , useState } from 'react';
+import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import './boot.css';
 
