@@ -21,7 +21,7 @@ function Aggrid() {
       }
 
     return (
-    <div className="Agrrid">
+    <div className="Agrrid"  >
         <h3>Game of Thrones Books</h3>
         <h3>Fetch a list from an API and display it</h3>
         <div>
@@ -31,7 +31,7 @@ function Aggrid() {
             <br />
         </div>
 
-        <div className="ag-theme-alpine" style={{height: 400, width: 600}}>
+        <div className="ag-theme-alpine" style={{height: 300 , width: 600  }}>
             <AgGridReact
                 rowData={rowData}>
                 <AgGridColumn field="name"></AgGridColumn>

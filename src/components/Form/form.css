@@ -1,12 +1,14 @@
 .cont{
-    position: relative;
+    padding: 1px 1px;
+    position: absolute;
     left: 0px;
 }
 
 .form {
     padding: 1px 1px;
     position: relative;
-    left: 0px;
+    left: 50%;
+    margin: +35px -300px;
 }
 
 .form fieldset {

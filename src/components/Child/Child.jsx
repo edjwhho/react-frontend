@@ -1,4 +1,5 @@
 import button from 'react-bootstrap/Button';
+import './Child.css' ;
 
 function Child(props) {
     function handleChange(event) {
@@ -13,11 +14,12 @@ function Child(props) {
     }
 
     return  ( 
-        <div>
+        <div className='child'>
         <input value={props.value} onChange={handleChange} />
-        <button value={props} onClick={handleClick}> 
+        <button value={props.value} onClick={handleClick}> 
             Getdata
         </button>
+        {props.value}
         </div>
     )
 }
